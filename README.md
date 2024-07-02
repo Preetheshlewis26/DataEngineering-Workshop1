@@ -48,7 +48,7 @@ One Day workshop on understanding Docker, Web Scrapping, Regular Expressions, Po
      ##### **_docker-compose version 1.25.0, build 0a186604_**
      
  ### Homework
-  - Run docker-compose.yml with posgresql commands to run server 
+  - Run docker-compose.yml with posgresql commands to start server 
     - docker-compose up -d
     - docker exec -it psql-db bash
     - psql -U postgres
