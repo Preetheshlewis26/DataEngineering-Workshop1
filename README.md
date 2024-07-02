@@ -49,15 +49,24 @@ One Day workshop on understanding Docker, Web Scrapping, Regular Expressions, Po
      
  ### Homework
   - Run docker-compose.yml with posgresql commands to start server 
-    - docker-compose up -d
-    - docker exec -it psql-db bash
-    - psql -U postgres
+    ```
+    docker-compose up -d 
+    ```
+    ```
+    docker exec -it psql-db bash
+    ```
+    ```
+    psql -U postgres
+    ```
      - create a database to store the scraped content
      
   - Run Dockerfile using commands
-
-    - docker build --no-cache --network=host ./ -t simple_python       
-    - docker run --network=host simple_python
+    ```
+    docker build --no-cache --network=host ./ -t simple_python 
+    ```      
+    ```
+    docker run --network=host simple_python
+    ```
     
   - The scraped content will be stored in a table format 
     - Date | Title | Content/BodyText | Author
